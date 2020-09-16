@@ -8,16 +8,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms'
 import { NgStyleComponent } from './ng-style/ng-style.component'
 
-import {  MatCardModule} from '@angular/material/card';
-import {  MatSelectModule} from '@angular/material/select';
-import {  MatRadioModule } from '@angular/material/radio';
+import { MatCardModule } from '@angular/material/card';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatCheckboxModule } from '@angular/material/checkbox'
+import { MatInputModule } from '@angular/material/input'
 import { NgClassComponent } from './ng-class/ng-class.component';
+import { NgIfElseComponent } from './ng-if-else/ng-if-else.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgIfElseComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +30,8 @@ import { NgClassComponent } from './ng-class/ng-class.component';
     MatCardModule,
     MatSelectModule,
     MatRadioModule,
+    MatCheckboxModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
