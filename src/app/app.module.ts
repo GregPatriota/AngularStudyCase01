@@ -11,11 +11,13 @@ import { NgStyleComponent } from './ng-style/ng-style.component'
 import {  MatCardModule} from '@angular/material/card';
 import {  MatSelectModule} from '@angular/material/select';
 import {  MatRadioModule } from '@angular/material/radio';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NgStyleComponent
+    NgStyleComponent,
+    NgClassComponent
   ],
   imports: [
     BrowserModule,

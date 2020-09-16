@@ -1,0 +1,27 @@
+.class0 {
+    font-size: 16px;
+    color: red;
+    background-color: black;
+    padding: 18px;
+}
+
+.class1 {
+    font-size: 24px;
+    color: black;
+    background-color: red;
+    padding: 24px;
+}
+
+.class2 {
+    font-size: 32px;
+    color: goldenrod;
+    background-color: silver;
+    padding: 32px;
+}
+
+.class3 {
+    font-size: 40px;
+    color: silver;
+    background-color: goldenrod;
+    padding: 40px;
+}
