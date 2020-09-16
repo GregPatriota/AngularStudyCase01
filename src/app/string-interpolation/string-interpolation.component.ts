@@ -9,9 +9,14 @@ export class StringInterpolationComponent implements OnInit {
 
   firstName = "John"
   value = ''
+  cor_bodega = "primary"
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  rola() {
+    console.log('Rolou!')
   }
 
 }

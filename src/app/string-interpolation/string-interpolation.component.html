@@ -5,8 +5,8 @@
 
     <mat-card-content>
         <mat-card-actions>
-            <button mat-button>LIKE</button>
-            <button mat-button>SHARE</button>
+            <button mat-button (click)="rola()">LIKE</button>
+            <button mat-button [color]="cor_bodega">SHARE</button>
         </mat-card-actions>
     </mat-card-content>
     <mat-form-field class="example-form-field">
