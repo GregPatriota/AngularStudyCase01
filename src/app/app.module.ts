@@ -18,6 +18,7 @@ import { NgIfElseComponent } from './ng-if-else/ng-if-else.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { MatListModule } from '@angular/material/list'
 import { MatIconModule } from '@angular/material/icon'
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MatIconModule } from '@angular/material/icon'
     MatCheckboxModule,
     MatInputModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

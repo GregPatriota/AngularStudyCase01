@@ -9,6 +9,9 @@ export class NgForComponent implements OnInit {
 
   constructor() { }
 
+  food_n: any
+  food_p: number
+
   food_menu = [
     {name: "Hamburguer", price: 15.01}, 
     {name: "French Fries", price: 8.99}, 
@@ -16,6 +19,10 @@ export class NgForComponent implements OnInit {
   ]
 
   ngOnInit(): void {
+  }
+
+  add_to_list() {
+    this.food_menu.push({name: this.food_n, price: this.food_p})
   }
 
 }
