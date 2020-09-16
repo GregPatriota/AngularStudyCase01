@@ -15,13 +15,17 @@ import { MatCheckboxModule } from '@angular/material/checkbox'
 import { MatInputModule } from '@angular/material/input'
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfElseComponent } from './ng-if-else/ng-if-else.component';
+import { NgForComponent } from './ng-for/ng-for.component';
+import { MatListModule } from '@angular/material/list'
+import { MatIconModule } from '@angular/material/icon'
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
     NgClassComponent,
-    NgIfElseComponent
+    NgIfElseComponent,
+    NgForComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +36,8 @@ import { NgIfElseComponent } from './ng-if-else/ng-if-else.component';
     MatRadioModule,
     MatCheckboxModule,
     MatInputModule,
+    MatListModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

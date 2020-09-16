@@ -1,0 +1,16 @@
+<!-- <p *ngFor="let food of simple_list; let i=index">{{i+1}} - {{ food }}</p> -->
+
+<mat-card>
+    <mat-card-content>
+        <mat-list>
+            <h3 matSubHeader>Food</h3>
+            <mat-list-item *ngFor="let food of food_menu">
+                <mat-icon matListIcon>fastfood</mat-icon>
+                <h4 matLine>{{ food.name }}</h4>
+                <h4 matLine>R$ {{ food.price }}</h4>
+            </mat-list-item>
+        </mat-list>
+    </mat-card-content>
+    <mat-card-footer>
+    </mat-card-footer>
+</mat-card>
