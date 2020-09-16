@@ -9,6 +9,9 @@ export class NgStyleComponent implements OnInit {
 
   constructor() { }
 
+  myFontSize = '10px'
+  myColor = 'green'
+
   ngOnInit(): void {
   }
 
